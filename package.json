@@ -1,0 +1,12 @@
+{
+  "name": "requirejs-template",
+  "version": "1.0.0",
+  "description": "RequireJS modules loader based on data atributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000"
+  },
+  "author": "Lukasz Pietraszek",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RequireJS template</title>
+  <script data-main="scripts/config" src="node_modules/requirejs/require.js"></script>
+</head>
+<body>
+  <h1>RequireJS template</h1>
+  <p>Load js modules using data-module attributes</p>
+
+  <div data-module="moduleOne">
+    <h2>Module 1</h2>
+  </div>
+  <div data-module="moduleTwo,moduleThree">
+    <h2>Module 2 & 3</h2>
+  </div>
+  <div data-module="moduleFour">
+    <h2>Module 4</h2>
+  </div>
+
+</body>
+</html>
